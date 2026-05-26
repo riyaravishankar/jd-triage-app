@@ -16,7 +16,6 @@ job_link = st.text_input("Job Link")
 
 if st.button("Analyze Job"):
 
-```
 if jd_text.strip():
 
     result = classify_jd(jd_text)
@@ -61,4 +60,3 @@ if jd_text.strip():
     )
 
     st.success("Saved to results.csv")
-```
